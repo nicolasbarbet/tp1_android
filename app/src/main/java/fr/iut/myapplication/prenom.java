@@ -28,6 +28,5 @@ public class prenom extends AppCompatActivity {
         tvPrenom.setText(prenom);
         tvPrenom.setVisibility(View.VISIBLE);
         Toast.makeText(prenom.this, prenom, Toast.LENGTH_SHORT).show();
-
     }
 }
