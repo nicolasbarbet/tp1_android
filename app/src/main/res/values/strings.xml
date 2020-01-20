@@ -2,4 +2,5 @@
     <string name="app_name">Hello Prénom</string>
     <string name="label_input_prenom">Entrez votre prénom :</string>
     <string name="value_bouton_valider">Valider</string>
+    <string name="value_input_prenom">Tapez votre prénom</string>
 </resources>
