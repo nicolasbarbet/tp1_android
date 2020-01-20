@@ -2,10 +2,12 @@ package fr.iut.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class prenom extends AppCompatActivity {
 
@@ -25,5 +27,7 @@ public class prenom extends AppCompatActivity {
         String prenom = "Bonjour " + input.getText().toString() + " !";
         tvPrenom.setText(prenom);
         tvPrenom.setVisibility(View.VISIBLE);
+        Toast.makeText(prenom.this, prenom, Toast.LENGTH_LONG).show();
+
     }
 }
