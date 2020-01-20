@@ -27,7 +27,7 @@ public class prenom extends AppCompatActivity {
         String prenom = "Bonjour " + input.getText().toString() + " !";
         tvPrenom.setText(prenom);
         tvPrenom.setVisibility(View.VISIBLE);
-        Toast.makeText(prenom.this, prenom, Toast.LENGTH_LONG).show();
+        Toast.makeText(prenom.this, prenom, Toast.LENGTH_SHORT).show();
 
     }
 }
